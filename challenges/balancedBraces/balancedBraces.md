@@ -18,9 +18,12 @@ By this logic, we say a sequence of brackets is considered to be balanced if the
 ## Examples 
 
 ```js
-balancedBraces("(){}[]")// => true
-balancedBraces("([{}])")// => true
-balancedBraces("(}")// => false
-balancedBraces("[(])")// => false
-balancedBraces("[({})](]")// => false
+balancedBraces("(){}[]") // => true
+balancedBraces("([{}])") // => true
+balancedBraces("(}") // => false
+balancedBraces("[(])") // => false
+balancedBraces("[({})](]") // => false
+balancedBraces("}}]]))}])") //=> false
+balancedBraces("(({{[[]]}}))") // => true
+
 ```
