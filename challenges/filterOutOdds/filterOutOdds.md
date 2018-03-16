@@ -18,3 +18,7 @@ filterOutOdds([6,8,10,11]) //=> [6,8,10]
 
 
 
+expect(caesarCipher('COOL BEANS', 5)).toBe("HTTQEGJFSX");
+expect(caesarCipher('YAY', 13)).toBe("KNK");
+expect(caesarCipher('B A Z I', 4)).toBe("FDEDCDM");
+expect(caesarCipher('I LIKE COCONUTS', 24)).toBe("FXIFHBX L LKRQP");
