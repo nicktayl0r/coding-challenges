@@ -1,8 +1,8 @@
-function isPrime(n) {
-    for (var i=2; i<n; i++) {
+function isPrime(n) { 
+    for (let i=2; i<n; i++) {
         if (n%i === 0) {
             return false;
         }
     }
-    return true;
+    return (n < 2) ? false: true;
 }

@@ -4,7 +4,7 @@
 
 ## Prompt 
 
-Write a function called `first` that accepts an array as its only parameter and returns the last element of the array. If the array that is passed is empty `first` should return `false`.
+Write a function called `last` that accepts an array as its only parameter and returns the last element of the array. If the array that is passed is empty, `last` should return `false`.
 
 ## Examples
 

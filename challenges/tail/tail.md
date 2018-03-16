@@ -4,7 +4,7 @@
 
 ## Prompt 
 
-Write a function called `tail` that accepts an array and returns all elemnets of the array **but** the first.
+Write a function called `tail` that accepts an array and returns all element of the array **but** the first.
 
 ## Examples
 
