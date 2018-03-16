@@ -1,6 +1,6 @@
 ## filterOutOdds
 
-**Difficulty**: Medium 
+**Difficulty**: Basic 
 
 ## Prompt 
 
