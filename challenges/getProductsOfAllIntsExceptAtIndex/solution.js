@@ -1,16 +1,9 @@
 function getProductsOfAllIntsExceptAtIndex(arr) {
-    let forward = 1;
-    let backward = 1;
-    let productsOfAllIntsBeforeIndex= [];
-    
-    arr.forEach(function(elem, index) {
-        productsOfAllIntsBeforeIndex[index] = forward;
-        productsOfAllIntsBeforeIndex[arr.length-index-1] = backward;
-        forward *= arr[index];
-        backward *= arr[arr.length-index-1];
+    let product = arr.reduce(function(a,b) {
+      if (a !== 0 && b !== 0) {
+          return a * b;
+      }  
+      return a || b
     })
-
-    return productsOfAllIntsBeforeIndex;
+    return arr.map(x => x ? (arr.reduce((a,b) => a *b)/x) : product);
 }
-
-console.log(getProductsOfAllIntsExceptAtIndex([2,6,5,9]));
