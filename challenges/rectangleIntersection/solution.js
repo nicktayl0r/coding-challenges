@@ -16,3 +16,32 @@ function rectangleIntersection(rect1, rect2) {
     return false;
 
 }
+
+let rectangle1 = {
+    leftX: 1, 
+    bottomY: 1, 
+    width: 6,
+    height: 6
+
+};
+
+let rectangle2 = {
+    leftX: 2, 
+    bottomY: 2, 
+    width: 2,
+    height: 2
+};
+
+let rectangle3 = {
+    leftX: 4, 
+    bottomY: 5, 
+    width: 4,
+    height: 3
+};
+
+console.log(rectangleIntersection(rectangle1, rectangle2));
+console.log(rectangleIntersection(rectangle2, rectangle1));
+console.log(rectangleIntersection(rectangle1, rectangle3));
+console.log(rectangleIntersection(rectangle3, rectangle1));
+console.log(rectangleIntersection(rectangle2, rectangle3));
+console.log(rectangleIntersection(rectangle3, rectangle2));
