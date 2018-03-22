@@ -12,3 +12,4 @@ Write a function called `range` that accepts two integers as parameters and retu
 range(1,4) //=> [1,2,3]
 range(1,1) //=> []
 range(5,2) //=> "First parameter must be smaller than second." 
+```
