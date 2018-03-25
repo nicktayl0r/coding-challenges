@@ -55,10 +55,10 @@ let rectangle3 = {
     height: 3
 };
 
-rectangleIntersection(rectangle1, rectangle2) //=> 4
-rectangleIntersection(rectangle2, rectangle1) //=> 4
-rectangleIntersection(rectangle1, rectangle3) //=> 6
-rectangleIntersection(rectangle3, rectangle1) //=> 6
-rectangleIntersection(rectangle2, rectangle3) //=> false
-rectangleIntersection(rectangle3, rectangle2) //=> false
+expect(rectangleIntersection(rectangle1, rectangle2)).toBe(4);
+expect(rectangleIntersection(rectangle2, rectangle1)).toBe(4);
+expect(rectangleIntersection(rectangle1, rectangle3)).toBe(6);
+expect(rectangleIntersection(rectangle3, rectangle1)).toBe(6);
+expect(rectangleIntersection(rectangle2, rectangle3)).toBe(false);
+expect(rectangleIntersection(rectangle3, rectangle2)).toBe(false);
 ```
