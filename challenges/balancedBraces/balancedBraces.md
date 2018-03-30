@@ -25,5 +25,4 @@ balancedBraces("[(])") // => false
 balancedBraces("[({})](]") // => false
 balancedBraces("}}]]))}])") //=> false
 balancedBraces("(({{[[]]}}))") // => true
-
 ```
