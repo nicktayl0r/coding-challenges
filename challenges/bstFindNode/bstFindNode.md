@@ -10,12 +10,12 @@ A **Binary Tree** is a data structure comprised of nodes and edges that connect 
 
 Some terms you should be aware of:
 
-* Each one of the circles in the above diagram are called **nodes**
+* Each circle in the above diagram is called a **node**
 * A node that is directly above another node is called a **parent node**
 * A node that is immediately below another node is called a **child node**
 * A Binary Tree is composed of zero to many **subtrees**
 
-There are some rules or **invariants** a Binary Search Tree obeys. These invariants are rules that specify *what* the relationship between nodes will look like:
+There are some rules or **invariants** a Binary Search Tree obeys. These invariants are rules that specify *what* the relationships between nodes are:
 
 1. The values of the nodes in the left subtree are less than the values of the parent node
 2. The value of the nodes in the right subtree are greater than the values of the parent node
