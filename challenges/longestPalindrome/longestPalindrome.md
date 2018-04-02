@@ -11,7 +11,7 @@ Given a string, `longestPalindrome` should return the longest substring of lette
 ## Examples
 
 ```js
-longestPalindrom("abcbd") //=> "bcb"
-longestPalindrom("abba") //=> "abba"
-longestPalindrom("abcbdeffe") //=> "effe"
+longestPalindrome("abcbd") //=> "bcb"
+longestPalindrome("abba") //=> "abba"
+longestPalindrome("abcbdeffe") //=> "effe"
 ```
